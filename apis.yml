@@ -1,8 +1,27 @@
 aid: newport-communications
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/newport-communications.png
 name: Newport Communications
-description: Newport Communications is a company surfaced as a portfolio company of mayfield and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  NewPort Communications was a fabless semiconductor startup that developed
+  mixed-signal integrated circuits for the high-speed optical networking market,
+  including CMOS-based transceivers for 2.5-Gbit/s (OC-48) SONET/SDH
+  applications. Founded in 1999, the company was backed by Mayfield Fund,
+  Bessemer Venture Partners, and Cisco Investments (roughly $28M across Series A
+  and B) before being acquired by Broadcom on October 4, 2000 to strengthen
+  Broadcom's networking semiconductor portfolio. It is a defunct company with no
+  standalone public web presence and no API surface; this record is retained as
+  a historical portfolio-company lead in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/newport-communications/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +29,28 @@ x-backed-by:
 - mayfield
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: broadcom
+x-acquired-date: '2000-10-04'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Semiconductors
+- Networking
+- Optical Networking
+- Telecommunications
+- Integrated Circuits
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
